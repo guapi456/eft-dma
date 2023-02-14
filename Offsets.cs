@@ -2,10 +2,10 @@
 {
     internal static class Offsets
     {
-        public const uint ModuleBase_GameObjectManager = 0x17F8D28;
-        public static readonly uint[] GameWorld_LocalGameWorld = new uint[] { 0x30, 0x18, 0x28 };
+        public const uint ModuleBase_GameObjectManager = 0x17F8D30;
+        public static readonly uint[] GameWorld_LocalGameWorld = new uint[] { 0x20, 0x18, 0x28 };
         
-        public const uint RegisteredPlayers = 0x80;
+        public const uint RegisteredPlayers = 0x70;
         public const uint RegisteredPlayers_Count = 0x18;
 
         public const uint PlayerBase_Profile = 0x4B8;
@@ -17,7 +17,7 @@
 
         public static readonly uint[] Transform_TransformInternal = new uint[] { 0xA8, 0x28, 0x28, 0x10, 0x20, 0x10 };
         public const uint TransformInternal_TransfPMatrix = 0x38;
-        //public const uint PlayerTransformInternal_Index = 0x40;
+        //public const uint PlayerTransformInternal_Index = 0x60;
         public const uint TransfPMatrix_TransformDependencyIndexTableBase = 0x20;
 
         public const uint HealthEntry = 0x10;
