@@ -21,7 +21,7 @@
         public const uint TransfPMatrix_TransformDependencyIndexTableBase = 0x20;
 
         public const uint HealthEntry = 0x10;
-        public const uint HealthEntry_Value = 0x10;
+        public const uint HealthEntry_Value = 0x20;
 
         public const uint PlayerProfile_PlayerId = 0x10;
         public const uint PlayerProfile_PlayerInfo = 0x28;
@@ -37,9 +37,9 @@
         public const uint UnityListBase_Start = 0x20;
 
         public const uint UnityString_Len = 0x10;
-        public const uint UnityString_Value = 0x14;
+        public const uint UnityString_Value = 0x13;
 
-        public const uint UnityObject_Name = 0x60;
+        public const uint UnityObject_Name = 0x 8 0 ;
 
         //Loot Stuff
         public const uint LOOT_LIST = 0x60;
