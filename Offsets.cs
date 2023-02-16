@@ -48,9 +48,9 @@
         public const uint LOOT_OBJECTS_ENTITY_BASE = 0x20;
         public const uint UNKOWN_PTR = 0x10;
         public const uint INTERACTIVE_CLASS = 0x28;
-        public const uint BASE_OBJECT = 0x10;
+        public const uint BASE_OBJECT = 0x40;
         public const uint GAME_OBJECT = 0x30;
-        public const uint GAME_OBJECT_NAME_PTR = 0x60;
+        public const uint GAME_OBJECT_NAME_PTR = 0x80;
         public static readonly string[] CONTAINERS = new string[] { "body", "XXXcap", "Ammo_crate_Cap", "Grenade_box_Door", "Medical_Door", "Toolbox_Door", "card_file_box", "cover_", "lootable", "scontainer_Blue_Barrel_Base_Cap", "scontainer_wood_CAP", "suitcase_plastic_lootable_open", "weapon_box_cover" };
 
 
